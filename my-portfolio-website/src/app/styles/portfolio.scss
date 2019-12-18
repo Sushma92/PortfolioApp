@@ -20,6 +20,7 @@ body{
     min-height: 200px;
     padding-top: 180px;
     padding-bottom: 100px;
+    
 }
 
 .navbar{
@@ -37,6 +38,13 @@ body{
             color:rgba($alt-color, 0.75);
         }
     }    
+}
+
+.row{
+.skill-block{
+    padding: 2.5rem 1.25rem;
+    margin-bottom: 1rem;
+}
 }
 
 .main-content{
@@ -65,5 +73,13 @@ body{
                 }
             }
         }
+    }
+}
+
+.mat-card{
+    color: $body-color;
+    background-color: $alt-bg;
+    .mat-card-header-text{
+        margin: 0rem 0.5rem !important;
     }
 }
