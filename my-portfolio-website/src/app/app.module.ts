@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio/portfolio.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './styles/material.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { MaterialModule } from './styles/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
     MaterialModule
   ],
   providers: [],
